@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2950D8552737619E00E838C8 /* PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2950D8542737619E00E838C8 /* PracticeApp.swift */; };
+		2950D8572737619E00E838C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2950D8562737619E00E838C8 /* ContentView.swift */; };
+		2950D8592737619F00E838C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2950D8582737619F00E838C8 /* Assets.xcassets */; };
+		2950D85C2737619F00E838C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2950D85B2737619F00E838C8 /* Preview Assets.xcassets */; };
 		295BD15E2730181D00751303 /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295BD15D2730181D00751303 /* MemorizeApp.swift */; };
 		295BD1602730181D00751303 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295BD15F2730181D00751303 /* ContentView.swift */; };
 		295BD1622730181D00751303 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 295BD1612730181D00751303 /* Assets.xcassets */; };
@@ -14,6 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2950D8522737619E00E838C8 /* Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2950D8542737619E00E838C8 /* PracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeApp.swift; sourceTree = "<group>"; };
+		2950D8562737619E00E838C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2950D8582737619F00E838C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2950D85B2737619F00E838C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		295BD15A2730181D00751303 /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		295BD15D2730181D00751303 /* MemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeApp.swift; sourceTree = "<group>"; };
 		295BD15F2730181D00751303 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -22,6 +31,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2950D84F2737619E00E838C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		295BD1572730181D00751303 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -32,10 +48,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2950D8532737619E00E838C8 /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+				2950D8542737619E00E838C8 /* PracticeApp.swift */,
+				2950D8562737619E00E838C8 /* ContentView.swift */,
+				2950D8582737619F00E838C8 /* Assets.xcassets */,
+				2950D85A2737619F00E838C8 /* Preview Content */,
+			);
+			path = Practice;
+			sourceTree = "<group>";
+		};
+		2950D85A2737619F00E838C8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2950D85B2737619F00E838C8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		295BD1512730181D00751303 = {
 			isa = PBXGroup;
 			children = (
 				295BD15C2730181D00751303 /* Memorize */,
+				2950D8532737619E00E838C8 /* Practice */,
 				295BD15B2730181D00751303 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				295BD15A2730181D00751303 /* Memorize.app */,
+				2950D8522737619E00E838C8 /* Practice.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +107,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2950D8512737619E00E838C8 /* Practice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2950D85F2737619F00E838C8 /* Build configuration list for PBXNativeTarget "Practice" */;
+			buildPhases = (
+				2950D84E2737619E00E838C8 /* Sources */,
+				2950D84F2737619E00E838C8 /* Frameworks */,
+				2950D8502737619E00E838C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Practice;
+			productName = Practice;
+			productReference = 2950D8522737619E00E838C8 /* Practice.app */;
+			productType = "com.apple.product-type.application";
+		};
 		295BD1592730181D00751303 /* Memorize */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 295BD1682730181D00751303 /* Build configuration list for PBXNativeTarget "Memorize" */;
@@ -97,6 +151,9 @@
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
+					2950D8512737619E00E838C8 = {
+						CreatedOnToolsVersion = 13.1;
+					};
 					295BD1592730181D00751303 = {
 						CreatedOnToolsVersion = 13.1;
 					};
@@ -116,11 +173,21 @@
 			projectRoot = "";
 			targets = (
 				295BD1592730181D00751303 /* Memorize */,
+				2950D8512737619E00E838C8 /* Practice */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2950D8502737619E00E838C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2950D85C2737619F00E838C8 /* Preview Assets.xcassets in Resources */,
+				2950D8592737619F00E838C8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		295BD1582730181D00751303 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,6 +200,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2950D84E2737619E00E838C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2950D8572737619E00E838C8 /* ContentView.swift in Sources */,
+				2950D8552737619E00E838C8 /* PracticeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		295BD1562730181D00751303 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -145,6 +221,64 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		2950D85D2737619F00E838C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Practice/Preview Content\"";
+				DEVELOPMENT_TEAM = LK6DPQZB98;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.idzj.Practice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2950D85E2737619F00E838C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Practice/Preview Content\"";
+				DEVELOPMENT_TEAM = LK6DPQZB98;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.idzj.Practice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		295BD1662730181D00751303 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -322,6 +456,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2950D85F2737619F00E838C8 /* Build configuration list for PBXNativeTarget "Practice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2950D85D2737619F00E838C8 /* Debug */,
+				2950D85E2737619F00E838C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		295BD1552730181D00751303 /* Build configuration list for PBXProject "Memorize" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
